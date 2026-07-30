@@ -4,7 +4,8 @@
 /* header: was position:absolute overlaying the hero with a 1px line-height nav row, causing the nav text to visually smear into the hero heading. Make it a normal, solid, stacked top bar instead. */
 .elementor-64 .elementor-element.elementor-element-fca356f{position:static;width:100%;background:#0B1320;}
 .elementor-64 .elementor-element.elementor-element-a82f5f9{--flex-direction:column;--justify-content:center;--align-items:center;--padding-left:16px;--padding-right:16px;--padding-top:12px;--padding-bottom:12px;--gap:10px 10px;width:100%;}
-.elementor-64 .elementor-element.elementor-element-7b3f534 img{width:auto;height:44px;}
+.elementor-64 .elementor-element.elementor-element-7b3f534{--align-self:center !important;}
+.elementor-64 .elementor-element.elementor-element-7b3f534 img{width:auto;height:44px;margin:0 auto;display:block;}
 .elementor-64 .elementor-element.elementor-element-0f3ee4f{--flex-direction:column;--justify-content:center;--align-items:center;--padding-left:0px;--padding-right:0px;--gap:8px 8px;width:100%;}
 .elementor-64 .elementor-element.elementor-element-43bddb9 .elementor-heading-title,
 .elementor-64 .elementor-element.elementor-element-240b6cd .elementor-heading-title,
