@@ -1,1 +1,38 @@
 @media(max-width:767px){.elementor .e-63222ec{width:100%;}}@media(max-width:767px){.elementor .e-541f98a{width:100%;}}@media(max-width:767px){.elementor .e-704cd60{width:100%;}}@media(max-width:767px){.elementor .e-28af75d{width:100%;}}@media(max-width:767px){.elementor .e-c85b4d0-72123d0{width:100%;}}@media(max-width:767px){.elementor .e-8c72928-685f91b{width:100%;}}
+
+@media(max-width:767px){
+/* header: was position:absolute overlaying the hero with a 1px line-height nav row, causing the nav text to visually smear into the hero heading. Make it a normal, solid, stacked top bar instead. */
+.elementor-64 .elementor-element.elementor-element-fca356f{position:static;width:100%;background:#0B1320;}
+.elementor-64 .elementor-element.elementor-element-a82f5f9{--flex-direction:column;--justify-content:center;--align-items:center;--padding-left:16px;--padding-right:16px;--padding-top:12px;--padding-bottom:12px;--gap:10px 10px;width:100%;}
+.elementor-64 .elementor-element.elementor-element-7b3f534 img{width:auto;height:44px;}
+.elementor-64 .elementor-element.elementor-element-0f3ee4f{--flex-direction:row;--flex-wrap-mobile:wrap;--justify-content:center;--padding-left:0px;--padding-right:0px;--gap:6px 18px;width:100%;}
+.elementor-64 .elementor-element.elementor-element-43bddb9 .elementor-heading-title,
+.elementor-64 .elementor-element.elementor-element-240b6cd .elementor-heading-title,
+.elementor-64 .elementor-element.elementor-element-c01e54d .elementor-heading-title,
+.elementor-64 .elementor-element.elementor-element-9efc6e9 .elementor-heading-title,
+.elementor-64 .elementor-element.elementor-element-dea811b .elementor-heading-title{font-size:13px;line-height:1.4;}
+
+/* hero: fixed 56px heading + 520px paragraph + 60px indents overflowed a 375px screen */
+.elementor-64 .elementor-element.elementor-element-cb65543{--min-height:auto;--padding-top:48px;--padding-bottom:48px;}
+.elementor-64 .elementor-element.elementor-element-ce6e5a6 > .elementor-widget-container{margin:0 20px 14px 20px;}
+.elementor-64 .elementor-element.elementor-element-ce6e5a6 .elementor-heading-title{font-size:32px;}
+.elementor-64 .elementor-element.elementor-element-9ed337a{width:100%;max-width:100%;font-size:15px;}
+.elementor-64 .elementor-element.elementor-element-9ed337a > .elementor-widget-container{margin:0 20px;}
+.elementor-64 .elementor-element.elementor-element-b6b0e02 > .elementor-widget-container{margin:16px 0 0 20px;}
+
+/* about-us: text + image columns were squeezed side-by-side (~198px/157px) instead of stacking, causing every word of the heading to wrap onto its own line */
+.elementor-64 .elementor-element.elementor-element-cf8ca2e{flex-direction:column;}
+.elementor-64 .elementor-element.elementor-element-f07c57c{width:100%;max-width:100%;}
+.elementor-64 .elementor-element.elementor-element-56e28ab{width:100%;max-width:100%;}
+.elementor-64 .elementor-element.elementor-element-c5bb0da .elementor-heading-title{font-size:28px;}
+.elementor-64 .elementor-element.elementor-element-734ac84{width:100%;max-width:100%;}
+
+/* footer: 4 columns were laid out side-by-side and overlapping instead of stacking */
+.elementor-64 .elementor-element.elementor-element-a2cc444{flex-direction:column;row-gap:28px;}
+.elementor-64 .elementor-element.elementor-element-c71593e,
+.elementor-64 .elementor-element.elementor-element-9572e1b,
+.elementor-64 .elementor-element.elementor-element-c85b4d0,
+.elementor-64 .elementor-element.elementor-element-8c72928{width:100%;max-width:100%;text-align:center;}
+.elementor-64 .elementor-element.elementor-element-c8e5f55 img{margin:0 auto;}
+.elementor-64 .elementor-element.elementor-element-81f5cd3{width:100%;max-width:100%;margin-left:auto;margin-right:auto;}
+}
